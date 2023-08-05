@@ -1,0 +1,49 @@
+{
+  "expo": {
+    "name": "FrieghtAppBookingShreya",
+    "slug": "frieghtappbookingshreya",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff",
+      "ios": {
+        "config": {
+          "googleMapsApiKey": "AIzaSyC8whO4wSgNifJRFnCKMwVml2yB6AtbQ-8"
+        }
+      },
+      "android": {
+        "config": {
+          "googleMaps": {
+            "apiKey": "AIzaSyC8whO4wSgNifJRFnCKMwVml2yB6AtbQ-8"
+          }
+        }
+      }
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "permissions": [
+        "ACCESS_BACKGROUND_LOCATION"
+      ],
+      "package": "donewithit.com"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "description": ""
+  }
+}
